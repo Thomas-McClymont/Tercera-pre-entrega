@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  font-family: "Roboto";
+  height: 64px;
+  background-color: #9F7E69;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header #navegador {
+    display: flex;
+    flex-direction: row; }
+  header li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff; }
+    header li a:hover {
+      color: yellowgreen; }
+    header li a:active {
+      color: tomato; }
+  header .lista {
+    font-weight: lighter;
+    display: inline;
+    padding: 20px;
+    color: #ffffff;
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 15px; }
+  header button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 100px;
+    padding: 10px 0;
+    transition: 0.4s; }
+  header .log {
+    color: #9F7E69;
+    background-color: white; }
+  header button:hover {
+    color: white;
+    background-color: #D2BBA0; }
+
+#main-index {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-between;
+  height: 100vh; }
+  #main-index #divImg img {
+    height: 100vh;
+    width: 50vw; }
+  #main-index #formUser {
+    background-color: #2C2A2B;
+    padding: 30px;
+    height: 100vh;
+    width: 50vw; }
+    #main-index #formUser #divEmail input {
+      height: 25px;
+      border-radius: 5px;
+      margin-bottom: 25px;
+      background-color: #ececec;
+      outline: none;
+      border: 0; }
+    #main-index #formUser #divEmail .tituloForm {
+      color: #ffffff; }
+    #main-index #formUser #divPassword input {
+      height: 25px;
+      border-radius: 5px;
+      background-color: #ececec;
+      outline: none;
+      border: 0; }
+    #main-index #formUser #divPassword .tituloForm {
+      color: #ffffff; }
+  #main-index .inputForm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: lighter;
+    padding: 5px; }
+  #main-index #tituloWelcomeBack {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 40px;
+    font-style: italic; }
+  #main-index #divRememberPass {
+    margin-top: 25px;
+    margin-bottom: 15px; }
+    #main-index #divRememberPass label {
+      font-size: 15px;
+      color: #ffffff; }
+    #main-index #divRememberPass a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #ca8c8c; }

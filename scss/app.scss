@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import './design/colors.scss';
+@import './design/typography.scss';
+@import './layout/header.scss';
+@import './pages/signIn.scss'

@@ -1,0 +1,54 @@
+header{
+    font-family: $primary-typography;
+    height: 64px;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    //PARA CENTRARLO VERTICALMENTE
+    align-items: center;
+    
+    #navegador{
+        display: flex;
+        flex-direction: row;
+    }
+    li a{
+        text-decoration: none;
+        list-style-type: none;
+        color: $text-color;
+        &:hover{
+            color:  yellowgreen;
+        }
+        &:active{
+            color: tomato;
+        }
+    }
+    .lista{
+        font-weight: lighter;
+        display: inline;
+        padding: 20px;
+        color: $text-color;
+        
+        margin-left: 30px;
+        padding: 20px;
+        font-size: 15px;
+        
+    }
+    button {
+        cursor: pointer;
+        border: 0;
+        border-radius: 4px;
+        font-weight: 600;
+        margin: 0 10px;
+        width: 100px;
+        padding: 10px 0;
+        transition: 0.4s;
+    }
+    .log {
+        color: $primary-color;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    button:hover {
+        color: white;
+        background-color: $secondary-color;
+    }
+}
